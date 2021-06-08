@@ -38,7 +38,7 @@ function preload(){
 function setup() {
   createCanvas(600, 200);
 
-  var message = "This is a message";
+  var message = "Esta é uma mensagem";
  console.log(message)
   
   trex = createSprite(50,160,20,50);
@@ -81,7 +81,7 @@ function draw() {
   
   background(180);
   //exibir pontuação
-  text("Score: "+ score, 500,50);
+  text("Pontuação: "+ score, 500,50);
   
   
   if(gameState === PLAY){
